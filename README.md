@@ -7,6 +7,10 @@ To run the application, execute:
 ```bash
 go run ./cmd/api
 ```
+After the server is running, you can hit these endpoints.
+```bash
+curl -i http://localhost:4000/v1/healthcheck
+```
 
 ## Contributing
 This project is primarily for personal learning.
