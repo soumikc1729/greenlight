@@ -10,6 +10,8 @@ go run ./cmd/api
 After the server is running, you can hit these endpoints.
 ```bash
 curl -i http://localhost:4000/v1/healthcheck
+curl -i -X POST http://localhost:4000/v1/movies
+curl -i http://localhost:4000/v1/movies/123
 ```
 
 ## Contributing
