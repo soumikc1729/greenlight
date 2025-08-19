@@ -5,7 +5,7 @@ It explores building a production-ready web application in Go, covering authenti
 ## Running
 To run the application, execute:
 ```bash
-go run ./cmd/api/main.go
+go run ./cmd/api
 ```
 
 ## Contributing
